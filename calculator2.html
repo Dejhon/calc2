@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Calculator </h1>
+
+    <div>
+        <input type=number id="first" placeholder="Enter the first digit here" value="0">  
+    
+        <select name="sign" id="sign">
+            <option value="+"> + </option>
+            <option value="-"> - </option>
+            <option value="/"> / </option>
+            <option value="*"> * </option>
+            <option disabled>CIRCLE</option>
+            <option value="CAC">Calculate Area with Circumference</option>
+            <option value="CAR">Calculate Area with Radius</option>
+            <option value="CAD">Calculate Area with Diameter</option>  
+            <option disabled>AREA OF RECTANGLE</option>        
+            <option value="Rect">Area of Rectange</option> 
+          </select>
+    
+        <input type=number id="second" placeholder="Enter second digit here" value="0"> 
+    </div>
+          <br> <br>
+    <div>
+        <h2 id="output"> </h2>
+    </div>
+    
+          <br> <br>
+          <div>
+            <h2 id="output"> </h2>
+        </div>
+            <button onclick="calculate2()"> Calculate</button>
+        <div>
+
+    <script src="calculator2.js"></script>
+</body>
+</html>
